@@ -1,0 +1,2 @@
+"use strict";document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll(".recommended__product, .section-title, .category, .categories__button, .about-us__description, .contact-us__content"),e=new IntersectionObserver(function(t,e){t.forEach(function(t){t.isIntersecting&&(t.target.classList.add("visible"),e.unobserve(t.target))})},{threshold:.1});t.forEach(function(t){return e.observe(t)})});
+//# sourceMappingURL=layout_landing-page.69e40227.js.map
